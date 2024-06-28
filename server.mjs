@@ -35,7 +35,7 @@ const transporter = nodemailer.createTransport({
 
 
 const corsOptions = {
-    origin: "https://www.meg-italia.com",   /* "http://localhost:5173", */
+    origin: "https://megsuite.netlify.app", /* "https://www.meg-italia.com",   /* "http://localhost:5173", */
     credentials: true, 
     optionSuccessStatus: 200
 }
