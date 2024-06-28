@@ -1,0 +1,53 @@
+/* Scope styles to the login-container to avoid affecting other parts of the application */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+ 
+  }
+  
+  .login-container .login-form {
+    width: 100%;
+    max-width: 800px; /* Increase max-width to make the container larger */
+    padding: 30px; /* Increase padding for more space inside the container */
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .login-container .form-label {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .login-container .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .login-container .btn-primary {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .login-container .login-actions {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .login-container .login-actions p {
+    margin-bottom: 20px;
+  }
+  
+  .login-container .login-actions .btn {
+    margin-top: 10px;
+    margin-right: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .login-container .login-form {
+      padding: 50px; /* Slightly decrease padding for smaller screens */
+    }
+  }
+  

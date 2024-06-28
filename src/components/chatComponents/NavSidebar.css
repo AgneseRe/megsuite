@@ -1,0 +1,26 @@
+.nav-sidebar {
+    background-color: #007bff; /* Azzurro chiaro */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+.logo {
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.user-name {
+    font-size: 1.1em;
+    text-align: right;
+}
+
+.user-icon {
+    text-align: middle;
+}
+
+.bi-person-circle {
+    vertical-align: middle;
+}

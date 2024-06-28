@@ -1,0 +1,75 @@
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.search {
+  max-width: 600px;
+  margin: 0px ; /* Centrato orizzontalmente con un margine verticale */
+}
+
+.search h2 {
+  color: #4a90e2;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.search input {
+  border: 2px solid #4a90e2;
+  border-radius: 20px;
+  padding: 12px 20px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.search input:focus {
+  border-color: #4a90e2;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.userChat {
+  display: flex;
+  align-items: center;
+  padding: 10px; /* Aumentato per migliorare la visibilità */
+  border: 1px solid #4a90e2;
+  border-radius: 10px;
+  background-color: #cde6fa;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  margin-top: 10px; /* Diminuito per ridurre lo spazio */
+}
+
+.userChat:hover {
+  background-color: #4a90e2;
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
+
+.userChat img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  margin-right: 10px; /* Aumentato per migliorare la visibilità */
+  border: 1px solid #007bff;
+}
+
+.userChatInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.userChatInfo span {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+span {
+  color: #1d66d4;
+  font-weight: bold;
+}
+
+.search {
+  margin-bottom: 0; /* Rimuove lo spazio vuoto sotto la barra di ricerca */
+}
